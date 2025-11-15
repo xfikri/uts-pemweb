@@ -1,123 +1,164 @@
 # UTS PEMWEB
 ### Oleh
-## 20230801529 - MUHAMMAD FIKRI NUR WAHID
-# PROSES SLR (Systematic Literature Review)
-Rumpun Ilmu: Teknik Informatika dengan Peminatan Artificial Intelligence - Machine Learning
+## 2012345678 - ABCDEF
+---
+# PROSES SLR
+```bash
+RUMPUN ILMU = TEKNIK INFORMATIKA DENGAN PEMINATAN ARTIFICIAL INTELIGENT FOKUSNYA DI MACHINE LEARNING
+DETAIL = MENERAPKAN ALGORITMA PREDIKSI UNTUK MACHINE LEARNING 
+P(Platform/System/Users) = Web Application untuk Dashboard Pemilik Coffee Shop
+I(Technology Intervention) = Teknologi laravel filament dimana ada admin dan customer
+C(Alternate Technology/Baseline) = Masih menggunakan manual
+O(Outcome/Performance Matriks) = Aplikasi web yang bisa customer input form, kasir persetujuan form dan admin di plot oleh kasir
+S(Study Design/Evaluation Method) =  Aplikasi mempermudah dalam pembelian kopi
+Berikan saya riset question (rq) terkait ide penelitian diatas!
+Respon: Berdasarkan deskripsi penelitian Anda yang menggunakan kerangka PICO(S), berikut adalah beberapa Research Question (RQ) yang dapat dikembangkan untuk ide penelitian tersebut:
 
-Detail: Menerapkan Algoritma Prediksi untuk Optimasi Bisnis Coffee Shop
+RQ1 (Fokus Utama: Efektivitas Sistem)
+"Sejauh mana implementasi Dashboard Coffee Shop berbasis Laravel Filament meningkatkan efisiensi proses order dibandingkan dengan sistem manual?"
 
-P (Platform/System/Users):
+Sub-Question:
 
-Web Application untuk Dashboard Pemilik Coffee Shop
+Bagaimana waktu rata-rata yang dibutuhkan dari input order oleh customer hingga persetujuan kasir pada sistem baru dibandingkan dengan sistem manual?
 
-Sistem Recommendation untuk Customer
+Seberapa akurat sistem dalam memplot dan mencatat data penjualan untuk laporan admin dibandingkan pencatatan manual?
 
-Dataset: Transaksi Penjualan, Data Customer, Inventory
+RQ2 (Fokus Teknologi & Penerimaan Pengguna)
+"Bagaimana tingkat penerimaan dan kepuasan pengguna (customer, kasir, dan admin) terhadap fitur-fitur dalam aplikasi Dashboard Coffee Shop yang dibangun dengan Laravel Filament?"
 
-I (Technology Intervention):
+Sub-Question:
 
-Algoritma Machine Learning (Clustering untuk Segmentasi Customer, Time Series Forecasting untuk Prediksi Penjualan, Recommendation System)
+Apa saja faktor usability (kemudahan penggunaan, kejelasan antarmuka) yang paling mempengaruhi kepuasan customer dalam mengisi form order?
 
-Python FastAPI untuk ML Model Serving
+Bagaimana pengalaman kasir dalam melakukan persetujuan order dan mengelola data dibandingkan dengan sistem sebelumnya?
 
-PHP/Laravel Filament untuk Admin Dashboard
+Sejauh mana fitur dashboard untuk admin memenuhi kebutuhan dalam analisis penjualan dan pengambilan keputusan?
 
-MySQL Database
+RQ3 (Fokus pada Alur Kerja & Error Reduction)
+"Bagaimana aplikasi web ini mengurangi tingkat kesalahan manusia (human error) dalam proses input order, persetujuan, dan pelaporan dibandingkan dengan proses manual?"
 
-C (Alternate Technology/Baseline):
+Sub-Question:
 
-Sistem Manual (Excel-based reporting)
+Berapa persen penurunan kesalahan perhitungan total bayar atau kesalahan input menu setelah sistem diimplementasikan?
 
-Traditional Inventory Management
+Bagaimana sistem ini meminimalisir terjadinya order yang hilang atau tidak tercatat (lost order)?
 
-Tidak ada personalized recommendation
+RQ4 (Fokus Kinerja & Keandalan Teknis)
+"Bagaimana kinerja teknis (performance, keandalan, dan keamanan) aplikasi Laravel Filament dalam menangani transaksi dan manajemen data di lingkungan coffee shop?"
 
-O (Outcome/Performance Matriks):
+Sub-Question:
 
-Akurasi prediksi penjualan (MAPE, RMSE)
+Bagaimana waktu respons (response time) aplikasi saat terjadi puncak transaksi (concurrent users)?
 
-Precision/Recall recommendation system
+Sejauh mana struktur database dan autentikasi role (admin, kasir) yang diterapkan mampu mengamankan data transaksi?
 
-Peningkatan customer satisfaction
+RQ5 (Fokus pada Dampak Bisnis)
+"Apa dampak implementasi aplikasi dashboard ini terhadap produktivitas karyawan (kasir/admin) dan peningkatan kualitas layanan customer di coffee shop?"
 
-Pengurangan food waste
+Sub-Question:
 
-Peningkatan revenue
+Apakah terdapat peningkatan volume order yang dapat ditangani per hari setelah sistem diterapkan?
 
-S (Study Design/Evaluation Method):
+Bagaimana aplikasi ini mempengaruhi kepuasan pelanggan secara keseluruhan (customer satisfaction) dilihat dari kecepatan dan akurasi layanan?
 
-A/B Testing untuk recommendation system
+Saran Pengembangan:
+Untuk menjawab RQ1, RQ3, dan RQ5, Anda dapat menggunakan metode komparatif (membandingkan data sebelum dan sesudah implementasi).
 
-Cross-validation untuk model prediksi
+Untuk RQ2, metode yang cocok adalah kuantitatif (kuesioner skala likert) didukung dengan kualitatif (wawancara mendalam dengan kasir dan admin).
 
-Kuesioner kepuasan pelanggan
+Untuk RQ4, Anda dapat melakukan pengujian beban (load testing) dan audit keamanan sederhana.
 
-Analisis ROI (Return on Investment)
+Dengan Research Question di atas, penelitian Anda akan memiliki arah yang jelas, terukur, dan dapat memberikan kontribusi yang signifikan baik dari sisi akademis (Software Engineering) maupun praktis bagi dunia usaha.
+
+
+```
 
 # PROSES RQ
-bash
-RQ 1: RESEARCH QUESTION 1: ANALISIS AKURASI ALGORITMA MACHINE LEARNING
-"Bagaimana tingkat akurasi dan efektivitas algoritma machine learning dalam mengklasifikasikan pola produktivitas pengguna ke dalam kategori 'Sehat' atau 'Berpotensi Toksik' berdasarkan data perilaku kerja yang dikumpulkan?"
+```bash
+Efisiensi Sistem Dashboard Coffee Shop Laravel
+Rumpun Ilmu : software Engineering
+Deskripsi : Bikin Aplikasi Web
+P (Platform) : Web Application untuk Dashboard Pemilik Coffee Shop
+I (Invervention) : Teknologi laravel filament dimana ada admin dan customer
+C (Comparison) = Masih menggunakan manual
+O (Outcome) = Aplikasi web yang bisa customer input form, kasir persetujuan form dan admin di plot oleh kasir
+S (Suspect) = Aplikasi mempermudah dalam pembelian kopi
 
-Penjelasan: Research question ini berfokus pada aspek teknis implementasi machine learning, dimana peneliti akan mengevaluasi kemampuan berbagai algoritma classification (seperti Random Forest, SVM, atau Neural Networks) dan clustering (seperti K-Means atau DBSCAN) dalam mengidentifikasi pola kerja yang tidak sehat. Efektivitas diukur melalui metrik standar machine learning seperti accuracy, precision, recall, dan F1-score, dengan tujuan menemukan model terbaik yang dapat secara konsisten membedakan antara pola kerja yang produktif-sehat versus yang berpotensi menyebabkan burnout atau dampak negatif lainnya.
+Berikan saya riset question (rq) terkait ide penelitian diatas!
+Berdasarkan deskripsi penelitian Anda yang menggunakan kerangka PICO(S), berikut adalah beberapa Research Question (RQ) yang dapat dikembangkan untuk ide penelitian tersebut:
 
-RQ 2:RESEARCH QUESTION 2: OPTIMASI VISUALISASI INSIGHT PRODUKTIVITAS
-"Bentuk visualisasi data seperti apa yang paling mudah dipahami dan actionable bagi pengguna dalam menyajikan insight mengenai pola produktivitas mereka, khususnya dalam mengidentifikasi pola kerja yang berpotensi toksik?"
+RQ1 (Fokus Utama: Efektivitas Sistem)
+"Sejauh mana implementasi Dashboard Coffee Shop berbasis Laravel Filament meningkatkan efisiensi proses order dibandingkan dengan sistem manual?"
 
-Penjelasan: Research question ini berfokus pada aspek user experience dan presentasi data, dimana peneliti akan mengeksplorasi berbagai format visualisasi (seperti heatmap distribusi waktu kerja, grafik tren produktivitas, radar chart keseimbangan kehidupan kerja, atau alert system untuk pola berbahaya) untuk menentukan mana yang paling efektif dalam meningkatkan kesadaran pengguna. Keberhasilan dinilai melalui user testing yang mengukur comprehensibility, actionability, dan dampak terhadap perubahan perilaku kerja, dengan tujuan menciptakan dashboard insights yang tidak hanya informatif tetapi juga memotivasi pengguna untuk memperbaiki kebiasaan kerja mereka.
+Sub-Question:
 
-KEYWORD UNTUK PENCARIAN JURNAL
-Kelompok 1: Klasifikasi & Deteksi Pola Produktivitas
-sql
-("productivity monitoring" OR "work behavior analysis" OR "employee monitoring") 
-AND 
-("machine learning classification" OR "pattern recognition" OR "behavioral clustering") 
-AND 
-("burnout detection" OR "toxic work pattern" OR "mental health monitoring" OR "work fatigue detection")
-AND 
-("supervised learning" OR "unsupervised learning" OR "behavioral analytics")
-Kelompok 2: Metrik Evaluasi Algorithm ML
-sql
-("model accuracy" OR "classification performance" OR "algorithm effectiveness") 
-AND 
-("precision recall" OR "F1-score" OR "confusion matrix" OR "cross-validation")
-AND 
-("Random Forest" OR "SVM" OR "Neural Networks" OR "K-Means clustering")
-AND 
-("performance metrics" OR "model evaluation" OR "predictive accuracy")
-Kelompok 3: Visualisasi Data & Dashboard Insights
-sql
-("data visualization" OR "dashboard design" OR "analytics interface") 
-AND 
-("user understanding" OR "comprehensibility" OR "actionable insights")
-AND 
-("information visualization" OR "visual analytics" OR "interactive dashboard")
-AND 
-("user experience" OR "UX design" OR "human-computer interaction")
-Kelompok 4: Aplikasi dalam Konteks Produktivitas
-sql
-("workplace analytics" OR "employee productivity" OR "digital wellbeing") 
-AND 
-("behavior change" OR "intervention design" OR "feedback systems")
-AND 
-("personal informatics" OR "self-monitoring" OR "quantified self")
-AND 
-("health monitoring" OR "wellbeing technology" OR "preventive systems")
-STRATEGI PENCARIAN LANJUT
-Boolean Combinations untuk Pencarian Mendalam:
-sql
-("machine learning classification" AND "productivity monitoring" AND "visualization dashboard")
-OR
-("behavioral pattern recognition" AND "workplace analytics" AND "user interface design")
-OR
-("burnout prediction" AND "data visualization" AND "employee wellbeing")
+Bagaimana waktu rata-rata yang dibutuhkan dari input order oleh customer hingga persetujuan kasir pada sistem baru dibandingkan dengan sistem manual?
+
+Seberapa akurat sistem dalam memplot dan mencatat data penjualan untuk laporan admin dibandingkan pencatatan manual?
+
+dari sini perkirakan JUDUL YANG BAIK DAN MENARIK NYA APA
+respon:Berdasarkan Research Question (RQ1) yang Anda pilih, berikut beberapa rekomendasi judul penelitian yang baik dan menarik, dirangkai dari yang paling langsung hingga yang lebih akademis.
+
+Kategori Judul: Langsung dan Deskriptif
+Judul-judul ini jelas menggambarkan apa yang diteliti dan metode yang digunakan.
+
+Analisis Perbandingan Efisiensi Sistem Order Berbasis Web Laravel Filament dengan Sistem Manual pada Coffee Shop
+
+Alasan: Sangat jelas, langsung menyebutkan variabel yang dibandingkan (efisiensi), teknologi (Laravel Filament), dan konteks (Coffee Shop).
+
+Implementasi dan Evaluasi Dashboard Order Coffee Shop Menggunakan Laravel Filament untuk Meningkatkan Efisiensi Pelayanan
+
+Alasan: Fokus pada tindakan (implementasi & evaluasi) dan outcome yang diharapkan (meningkatkan efisiensi).
+
+Pengukuran Efektivitas Aplikasi Web Laravel Filament dalam Mempercepat Proses Order dan Akurasi Laporan di Coffee Shop
+
+Alasan: Spesifik menyebutkan aspek yang diukur (kecepatan proses dan akurasi laporan) sesuai dengan sub-question Anda.
+
+Kategori Judul: Lebih Menarik dan Aplikatif
+Judul-judul ini menggunakan kata kunci yang lebih dinamis dan berfokus pada solusi bisnis.
+
+Solusi Digital Coffee Shop: Pengembangan Dashboard Laravel Filament untuk Optimasi Proses Order dan Akurasi Data Penjualan
+
+Alaman: Kata "Solusi Digital" dan "Optimasi" terdengar modern dan solutif, sangat menarik bagi kalangan bisnis dan praktisi.
+
+Automating Coffee Orders: Sebuah Studi Perbandingan Efisiensi antara Sistem Web Laravel Filament dan Metode Manual
+
+Alasan: Menggunakan kata "Automating" yang powerful dan menarik perhatian. Gaya penulisan "Sebuah Studi..." memberikan kesan akademis yang kuat.
+
+Streamlining Coffee Shop Operations: Efektivitas Laravel Filament dalam Memperpendek Waktu Tunggu dan Meminimalkan Human Error
+
+Alasan: Kata "Streamlining Operations" sangat relevan dengan dunia manajemen. Judul ini juga secara eksplisit menyebut outcome penting bagi bisnis: "Memperpendek Waktu Tunggu" dan "Meminimalkan Human Error".
+
+Rekomendasi TERBAIK (Kombinasi Kejelasan dan Daya Tarik):
+"Optimasi Layanan Coffee Shop: Analisis Perbandingan Efisiensi dan Akurasi antara Sistem Dashboard Laravel Filament dan Proses Manual"
+
+Alasan Pemilihan:
+
+Kata Pembuka Kuat: "Optimasi Layanan" langsung menunjukkan nilai tambah dan dampak dari penelitian.
+
+Jelas dan Terukur: Menyebut dengan tepat apa yang dianalisis ("Efisiensi dan Akurasi").
+
+Komparatif: Jelas membandingkan dua sistem ("Sistem Dashboard" vs "Proses Manual").
+
+Spesifik Teknologi: Menyebut framework yang digunakan, "Laravel Filament".
+
+Konteks Jelas: "Coffee Shop" menjadi domain aplikasi yang spesifik.
+
+Judul ini secara sempurna merangkum inti dari RQ1 dan sub-question Anda, terdengar profesional, dan menjanjikan kontribusi yang nyata baik bagi ilmu Software Engineering maupun dunia usaha riil.
 
 
+
+berikan saya keyword untuk pencarian jurnal terkait jabaran di atas!
+```
+
+```bash
 terlampir file SLR dengan nama SLR.pdf
+```
 
 # BRD
-
+```
 terlampir file BRD berdasarkan SLR dengan nama file BRD.pdf
+```
 
 # IMPLEMENTASI WEBSITE
 ```
@@ -126,7 +167,17 @@ terlampir file BRD berdasarkan SLR dengan nama file BRD.pdf
 3. cd /root/perkuliahan/uts-pemweb
 4. cd src
 5. code .
-6. https://themewagon.com/themes/coffo/
+6. template website dengan ide saya diambil dari: https://themewagon.com/themes/coffo/
 6. cd resource/views
 8. mkdir layouts && mkdir pages && mkdir partials
-9. cd ../../routes/
+9. touch about.blade.php
+10. touch banner.blade.php
+11. touch blog.blade.php
+12. touch client.blade.php
+13. touch coffee.blade.php
+14. touch contact.blade.php
+15. touch copyright.blade.php
+16. touch footer.blade.php
+17. touch header.blade.php
+18. touch script.blade.php
+19. cd ../../routes/
